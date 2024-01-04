@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Pasword</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Open Sans;
+        }
+        .container{
+            display: flex;
+            height: 95vh;
+            width: 100%;
+        }
+
+        .left{
+            width: 40%;
+            background-color: #B8B8B8;
+            height: 95vh;
+        }
+
+        .right{
+            width: 60%;
+            height: 95vh;
+        }
+
+        .content1{
+            height: 90%;
+            width: 90%;
+            margin: 50px 90px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        } 
+
+        .content1 img{
+            height: 370px;
+            width: 370px;
+
+        }
+
+        .content2{
+            height: 90%;
+            width: 90%;
+            margin: 50px 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .content2 form{
+            height: 90%;
+            width: 70%;
+            margin: 60px 140px;
+            display: flex;
+            flex-direction: column;
+            }
+
+            .content2 form h1{
+                margin: 10px 20px;
+            } 
+
+            .content2 form h3{
+                margin: 10px 20px;
+                font-weight: 100;
+                color: #B8B8B8;
+            } 
+
+            .content2 form input{
+                margin: 10px 20px;
+                height: 15px;
+                padding: 10px;
+                border-radius: 7px;
+                border: 1px solid black;
+            }
+
+            .content2 form button:hover{
+                color: black;
+                background-color: #FF4444;
+                
+            }
+
+            .content2 form input::placeholder{
+                margin: 10px;
+                font-weight: 900;
+                color: black;
+            } 
+
+            .content2 form button{
+                margin: 60px 20px;
+                background-color: black;
+                color: white;
+                font-size: 18px;
+                font-weight: 700;
+                padding: 10px;
+                border-radius: 7px;
+                border: 1px solid black;
+                cursor: pointer;
+            } 
+
+            .content2 form .inputs .forget{
+                margin-left: 189px;        
+            } 
+            
+            input[type=checkbox]{
+                accent-color: #FF4444;
+                mix-blend-mode: multiply;
+            }
+
+            .para h2{
+                margin: 20px;
+                padding: 5px;
+
+            }
+
+            .para .parag{
+                margin: 20px;
+                padding: 5px;
+                color: #B8B8B8;
+
+            }
+
+            .container h4{
+                position: absolute;
+                top: 10px;
+                left: 90%;
+                color: #B8B8B8;
+            }
+            .container .alisami{
+                position: absolute;
+                width: 24.646px;
+                height: 24px;
+                top: 59.3%;
+                left: 86.3%;
+                cursor: pointer;
+
+            }
+
+            .container .sami{
+                position: absolute;
+                width: 24.646px;
+                height: 24px;
+                top: 43.7%;
+                left: 86.3%;
+                cursor: pointer;
+
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="eye.png" class="alisami" alt="">
+        <img src="eye.png" class="sami" alt="">
+
+        <h4>Reset Pasword</h4>
+        <div class="left">
+            <div class="content1">
+                <h1>Logo</h1>
+                <img src="Sign In.png" alt="">
+                <div class="para">
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p class="parag">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="right">
+            <div class="content2">
+                <form action="" class="form">
+                    <h1>Reset Pasword</h1>
+                    <h3>Sign in your Account</h3>
+                    <h3>New Pasword</h3>
+                    <input type="password" placeholder="********">
+                    <h3>Confirm Pasword</h3>
+                    <input type="password" placeholder="********"> <br>
+                    
+                    <button class="login">Reset Pasword</button>
+                        
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
